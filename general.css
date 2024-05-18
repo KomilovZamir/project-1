@@ -1,0 +1,135 @@
+/* Topbar */
+.header {
+  height: 115vh;
+  background-image: url("images/home-banner.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.navbar {
+  margin-left: 140px;
+}
+
+.navbar a {
+  margin-right: 40px;
+  font-size: 12px;
+}
+
+.active {
+  color: #efb6df;
+}
+
+.menu {
+  font-size: 32px;
+  display: none;
+}
+
+/* Topbar media */
+@media screen and (max-width: 970px) {
+  /* Topbar */
+  .navbar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    margin-left: auto;
+  }
+}
+/* Header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header-info span {
+  font-size: 16px;
+  color: #797979;
+  letter-spacing: 2px;
+}
+.header-info h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+.header-info p {
+  font-size: 24px;
+  font-weight: 300;
+}
+.header-info-icons {
+  display: flex;
+  margin: 48px 0;
+}
+.header-info-icons i {
+  font-size: 30px;
+  color: rgba(5, 54, 77, 0.5);
+  margin-right: 16px;
+  transition: 0.3s;
+}
+.header-info-icons i:hover {
+  color: rgba(0, 174, 255, 0.5);
+  transform: rotate(360deg);
+}
+.header-content-img {
+  position: relative;
+  top: 0px;
+  right: -45px;
+}
+@media screen and (max-width: 845px) {
+  /* Header */
+  .header-info {
+    margin-top: 60px;
+  }
+  .header-info h1 {
+    font-size: 50px;
+    margin: 16px 0;
+  }
+  .header-info p {
+    font-size: 18px;
+  }
+  .header-info-icons {
+    margin: 30px 0;
+  }
+  .header-info-icons i {
+    font-size: 24px;
+    margin-right: 14px;
+  }
+  .header-content-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  /* Header */
+  .header-info span {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  .header-info h1 {
+    font-size: 40px;
+    margin: 14px 0;
+  }
+  .header-info p {
+    font-size: 15px;
+  }
+  .header-info-icons {
+    margin: 22px 0;
+  }
+  .header-info-icons i {
+    font-size: 22px;
+    margin-right: 12px;
+  }
+  .header {
+    background-position: left;
+  }
+  /* btn */
+  .btn {
+    padding: 12px 28px;
+    font-size: 12px;
+  }
+}
