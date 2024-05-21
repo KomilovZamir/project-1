@@ -78,8 +78,8 @@
 }
 .header-content-img {
   position: relative;
-  top: 0px;
-  right: -45px;
+ top:12px;
+  right: 67px;
 }
 @media screen and (max-width: 845px) {
   /* Header */
